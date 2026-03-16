@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav-item{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px;
+   flex-wrap: wrap;
+   margin: 0px;
+   
+}
+.logo-container{
+    display: flex;
+    gap: 10px;
+   align-items: center;
+  font-size: 2.3vh;
+  color: #0B3C5D;
+}
+.logo{
+    width:12.5vh
+}
+.yatra{
+    color: darkgreen;
+}
+.menu{
+    font-weight: bolder;
+    display: flex;
+   gap: 40px;
+   font-size: 3vh;
+   
+}.link{
+    display: flex;
+    text-decoration: none;
+    color:rgb(43, 43, 112);
+   font-weight: bolder;
+   gap: 10px;
+}
+.main{
+    background-image: linear-gradient(rgb(255, 255, 255,0.6)),url(./../images/home.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center; 
+}
+.menu-item{
+    color: darkgreen;
+}
