@@ -1,0 +1,37 @@
+.nav-item{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 5px 10px;
+   flex-wrap: wrap;
+   margin: 0px;
+   
+}
+.logo-container{
+    display: flex;
+    gap: 10px;
+   align-items: center;
+  font-size: 2.3vh;
+  color:darkblue;
+  font-weight: bolder;
+}
+.logo{
+    width:12.5vh
+}
+.yatra{
+    color:brown;
+    font-weight: bolder;
+}
+.menu{
+    font-weight: bolder;
+    display: flex;
+   gap: 40px;
+   font-size: 3vh;
+   
+}.link{
+    display: flex;
+    text-decoration: none;
+    color:darkblue;
+   font-weight: bolder;
+   gap: 10px;
+}
