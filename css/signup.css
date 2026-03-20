@@ -1,0 +1,172 @@
+.container {
+    width: 900px;
+    height: 550px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.left {
+    width: 50%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: brown;
+    padding: 20px;
+}
+
+.left img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.left h1 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.left p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.right {
+    width: 50%;
+    background: brown;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right h2 {
+    margin-bottom: 20px;
+    color: darkblue;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 18px;
+}
+
+.input-box input {
+    width: 80%;
+    padding: 12px 12px 12px 40px;
+    border-radius: 30px;
+    outline: none;
+    font-size: 14px;
+}
+
+.input-box input::placeholder {
+    color: brown;
+    padding-left: 30px;
+    font-weight: bolder;
+}
+
+.input-box i {
+    position: absolute;
+    left: 30px;
+
+    top: 50%;
+    transform: translateY(-50%);
+    color: brown;
+    font-size: 16px;
+}
+
+
+.btn {
+    background: darkblue;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: darkblue;
+}
+
+.login-link {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+}
+
+.login-link a {
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+
+        border-radius: 10px;
+        align-items: center;
+    }
+
+    .left {
+        width: 100%;
+        padding: 25px 15px;
+    }
+
+    .left img {
+        width: 100px;
+    }
+
+    .left h1 {
+        font-size: 22px;
+    }
+
+    .left p {
+        font-size: 13px;
+    }
+
+    .right {
+        width: 90%;
+        padding: 25px 15px;
+    }
+
+    .right h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .input-box input {
+        padding: 10px 10px 10px 40px;
+        font-size: 13px;
+
+    }
+
+    .input-box i {
+        font-size: 14px;
+        left: 10px;
+    }
+
+    .btn {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .login-link {
+        font-size: 14px;
+        text-align: center;
+    }
+}

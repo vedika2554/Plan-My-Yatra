@@ -95,3 +95,31 @@ body{
     margin-left: 5px;
     font-weight: bolder;
 }
+ .stat-con
+ {
+            display: flex;
+            justify-content: center;
+            gap: 90px;
+            margin-top: 50px;
+        }
+        .statbox{
+            padding: 20px;
+            border-radius: 10px;
+           
+        }
+        .statbox h2{
+            display: inline;
+            margin-left: 10px;
+            color: darkblue;
+            font-weight: bolder;
+        }
+        .statbox p{
+            
+            color: darkblue;
+            font-weight: bolder;
+        }
+         .statbox i{
+            font-size: 30px;
+            margin-bottom: 10px;
+            color:darkblue;
+        }
