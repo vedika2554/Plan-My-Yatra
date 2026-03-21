@@ -536,7 +536,7 @@ margin-left: auto;
 .step:hover {
   transform: translateY(-6px);
 }.step i {
-  background: #f5f5f5;
+  background-color: cornsilk;
   padding: 20px;
    color: brown; 
   border-radius: 50%;
