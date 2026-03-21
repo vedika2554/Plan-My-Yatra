@@ -5,6 +5,7 @@
    padding: 5px 10px;
    flex-wrap: wrap;
    margin: 0px;
+   
 }
 
 .logo-container{
@@ -41,4 +42,39 @@
 }
 .auth{
     color: brown;
+}
+.menu-toggle{
+    display: none;
+}
+.hamburger{
+    display: none;
+    color: brown;
+    font-size: 30px;
+    cursor: pointer;
+}
+@media screen and (max-width:760px){
+    .logo{
+        width: 11vh;
+    }
+    .logo-container{
+        font-size: 1.9vh;
+    }
+    .menu{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .hamburger{
+        display: block;
+        
+    }
+    
+    .menu-toggle:checked ~ .menu {
+        display: flex;
+        align-items: center;
+    }
+    
 }
