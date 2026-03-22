@@ -1,0 +1,319 @@
+:root {
+    --primary: brown;
+    --secondary: darkblue;
+    --light: cornsilk;
+    --white: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--light);
+    color: #222;
+    line-height: 1.6;
+}
+
+section {
+    padding: 60px 8%;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+h2 {
+    text-align: center;
+    color: var(--secondary);
+    margin-bottom: 5px;
+}
+
+h3 {
+    color: var(--secondary);
+}
+
+.subtitle {
+    text-align: center;
+    color: var(--primary);
+    margin-bottom: 25px;
+}
+
+p {
+    margin-top: 10px;
+    color: var(--primary);
+    font-weight: bolder;
+}
+
+.hero {
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--white);
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)),
+    url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') center/cover;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    color: var(--white);
+    margin-top: 8px;
+}
+
+.about-container {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h2 {
+    text-align: left;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.mission {
+    background: var(--white);
+}
+
+.mission-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: var(--light);
+    padding: 25px;
+    border-radius: 10px;
+    width: 240px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card i {
+    font-size: 36px;
+    color: var(--primary);
+    margin-bottom: 8px;
+}
+
+
+.experience-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.exp-card {
+    background: var(--white);
+    padding: 20px;
+    width: 220px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.exp-card:hover {
+    transform: translateY(-8px);
+}
+
+.exp-card i {
+    font-size: 28px;
+    color: var(--secondary);
+}
+
+
+.promise {
+    background: var(--white);
+}
+
+.promise-container {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.promise-text {
+    flex: 1;
+}
+
+.promise-text h2 {
+    text-align: left;
+}
+
+.promise-text ul {
+    margin-top: 15px;
+    list-style: none;
+    color: var(--secondary);
+    font-weight: 600;
+}
+
+.promise-text li {
+    margin-bottom: 8px;
+}
+
+.promise-image {
+    flex: 1;
+}
+
+.promise-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.highlight-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.highlight-card {
+    width: 220px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: var(--white);
+    transition: 0.3s;
+}
+
+.highlight-card:hover {
+    transform: translateY(-6px);
+}
+
+.highlight-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.highlight-card h3 {
+    padding: 8px;
+}
+
+.why-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.why-card {
+    background: var(--white);
+    padding: 20px;
+    border-radius: 10px;
+    width: 180px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.why-card:hover {
+    transform: translateY(-6px);
+}
+
+.why-card i {
+    font-size: 26px;
+    color: var(--secondary);
+}
+
+
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.testimonial-card {
+    background: var(--white);
+    padding: 20px;
+    width: 240px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-8px);
+}
+
+.testimonial-card img {
+    width: 70px;
+    border-radius: 50%;
+    margin-bottom: 8px;
+}
+
+.stars {
+    color: gold;
+    margin: 8px 0;
+}
+
+.cta {
+    background: var(--primary);
+    color: var(--white);
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.cta button {
+    padding: 10px 20px;
+    border: none;
+    background: var(--white);
+    color: var(--primary);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.cta button:hover {
+    background: var(--secondary);
+    color: var(--white);
+}
+
+
+@media (max-width: 760px) {
+    section {
+        padding: 50px 5%;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .about-container,
+    .promise-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-text h2,
+    .promise-text h2 {
+        text-align: center;
+    }
+}

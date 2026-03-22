@@ -30,11 +30,13 @@ font-weight: bolder;
         width: 90%;
         justify-content: center;
         align-items: center;
+        
     }
     .footer-container-main h2{
         font-size: 18px;
-        width: 90%;
-        text-align: center;
+        width: 100%;
+       text-align: center;
+       margin-left: 27px;
     }
     .footer{
         flex-direction: column;
