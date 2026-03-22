@@ -10,16 +10,13 @@
     --border: #ddd;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
    
     background: var(--light);
     color: var(--text);
+    margin: 0;
+    padding: 0;
 }
 
 /* GLOBAL */

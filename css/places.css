@@ -5,16 +5,12 @@
     --white: white;
 }
 
-/* RESET */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 body {
     background: var(--light);
-   
+   margin: 0;
+    padding: 0;
     color: #222;
 }
 
@@ -46,6 +42,7 @@ h2 {
     text-align: center;
     color: var(--white);
 
+    
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)),
     url('https://www.holidify.com/images/bgImages/JAIPUR.jpg') center/cover;
 }
