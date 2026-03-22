@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="./../css/navbar.css">
-    <link rel="stylesheet" href="./../css/signup.css">
-     <link rel="stylesheet" href="./../css/footer.css">
-    <title>Document</title>
+    <title>Contact - Plan My Yatra</title>
+
+    <link rel="stylesheet" href="./../css/contact.css">
+ <link rel="stylesheet" href="./../css/navbar.css">
+    <link rel="stylesheet" href="./../css/footer.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-     
-        <div class="nav-item">
+<div class="nav-item">
 
             <div class="logo-container">
                 <img src="./../images/logo.png" alt="logo" class="logo">
@@ -36,39 +37,102 @@
             </div>
 
         </div>
-         <div class="container">
+<!-- HERO -->
+<section class="hero">
+    <h1>Plan Your Journey</h1>
+    <p>Book your trip easily with us</p>
+</section>
 
-    <!-- LEFT -->
-    <div class="left">
-        <!-- Replace src with your logo path -->
-        <img src="./../images/logo.png" alt="Plan My Yatra Logo">
-        <h1>Plan My Yatra</h1>
-        <p>Discover. Plan. Travel.</p>
-    </div>
+<section class="contact">
 
-    <!-- RIGHT -->
-    <div class="right">
-        <h2>Login</h2>
+    <div class="contact-container">
 
-       <div class="input-box">
-    <i class="fa fa-user"></i>
-    <input type="text" placeholder="Full Name">
-</div>
+        <!-- LEFT SIDE -->
+        <div class="left-side">
 
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" alt="travel">
 
-<div class="input-box">
-    <i class="fa fa-lock"></i>
-    <input type="password" placeholder="Password">
-</div>
+            <div class="info-box">
 
-        <button class="btn">Login</button>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Pune, Maharashtra</p>
+                </div>
 
-        <div class="login-link">
-            Don't have an account? <a href="./signup.html">Signup</a>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+91 9876543210</p>
+                </div>
+
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>planmyyatra@gmail.com</p>
+                </div>
+
+            </div>
+
         </div>
-    </div>
 
+       <div class="form-box">
+    <h2 class="form-title">Book Your Trip</h2>
+
+    <form>
+
+        <div class="input-group">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Full Name" required>
+        </div>
+
+        <div class="input-group">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="Email Address" required>
+        </div>
+
+        <div class="input-group">
+            <i class="fas fa-phone"></i>
+            <input type="tel" placeholder="Phone Number" required>
+        </div>
+
+        <div class="input-group">
+            <i class="fas fa-map-marker-alt"></i>
+            <select required>
+                <option>Select Destination</option>
+                <option>Goa</option>
+                <option>Kerala</option>
+                <option>Kashmir</option>
+            </select>
+        </div>
+
+        <div class="input-group">
+            <i class="fas fa-calendar"></i>
+            <input type="date" required>
+        </div>
+
+        <div class="input-group">
+            <i class="fas fa-users"></i>
+            <input type="number" placeholder="Travelers" min="1" required>
+        </div>
+
+        <button type="submit">Book Now</button>
+
+    </form>
 </div>
+
+</section>
+
+<!-- MAP -->
+<section class="map">
+    <iframe 
+        src="https://maps.google.com/maps?q=pune&t=&z=13&ie=UTF8&iwloc=&output=embed">
+    </iframe>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+    <h2>Start Your Dream Trip Today</h2>
+    <button>Explore Destinations</button>
+</section>
+
 <div class="footer">
         <div class="footer-container-main">
             <div class="logo-container">
